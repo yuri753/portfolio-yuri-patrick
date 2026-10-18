@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Yuri Patrick — edição de vídeo, Reels e motion graphics com ritmo, intenção e personalidade.">
+  <title>Yuri Patrick — Corte & Movimento</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--ink:#121212;--paper:#f1eee5;--acid:#d9fb5d;--orange:#ff704d;--muted:#a6a69e;--line:#ffffff20;--mono:"DM Mono",monospace;--sans:Manrope,system-ui,sans-serif;--gutter:clamp(20px,5vw,76px);--max:1440px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px;background:var(--ink)}body{margin:0;background:var(--ink);color:var(--paper);font-family:var(--sans);overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}::selection{background:var(--acid);color:var(--ink)}
+    .progress{position:fixed;z-index:20;inset:0 auto auto 0;height:3px;width:0;background:var(--acid);box-shadow:0 0 15px #d9fb5d88}
+    .topbar{position:sticky;top:0;z-index:15;display:flex;align-items:center;justify-content:space-between;padding:14px var(--gutter);background:#121212df;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff12}.brand{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:800;letter-spacing:.06em}.brand-mark{width:28px;height:28px;display:grid;place-items:center;background:var(--acid);color:var(--ink);font-size:14px;border-radius:50%}.availability{display:flex;align-items:center;gap:8px;color:#c8c8bf;font:10px var(--mono);letter-spacing:.04em;text-transform:uppercase}.availability:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--acid);box-shadow:0 0 12px var(--acid)}.topbar nav{display:none;gap:28px;font-size:12px;color:#c2c1b8}.topbar nav a:hover,.topbar nav a:focus-visible{color:var(--acid)}
+    main{overflow:hidden}.wrap{width:min(100%,var(--max));margin:auto;padding-inline:var(--gutter)}.eyebrow{display:flex;align-items:center;gap:10px;color:var(--acid);font:10px var(--mono);letter-spacing:.15em;text-transform:uppercase}.eyebrow:before{content:"";width:20px;height:1px;background:currentColor}.hero{padding:72px var(--gutter) 62px;min-height:calc(92svh - 58px);display:flex;flex-direction:column;justify-content:center;position:relative}.hero:after{content:"";position:absolute;z-index:0;width:min(65vw,690px);aspect-ratio:1;right:-25%;top:4%;border:1px solid #d9fb5d20;border-radius:50%;box-shadow:0 0 0 55px #d9fb5d08,0 0 0 110px #d9fb5d05;pointer-events:none}.hero>*{position:relative;z-index:1}.hero h1{max-width:970px;margin:22px 0 24px;font-size:clamp(3.3rem,13vw,9rem);font-weight:700;letter-spacing:-.095em;line-height:.91}.hero h1 .accent{color:var(--acid);font-weight:500;letter-spacing:-.105em}.hero-intro{max-width:550px;color:#b8b8af;font-size:clamp(15px,4vw,19px);line-height:1.65}.hero-intro strong{color:var(--paper);font-weight:600}.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:26px}.button{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:50px;padding:0 20px;border:1px solid #ffffff35;border-radius:999px;font-size:12px;font-weight:700;transition:transform .2s,border-color .2s,background .2s,color .2s}.button:hover{transform:translateY(-2px);border-color:var(--acid)}.button.primary{color:var(--ink);border-color:var(--acid);background:var(--acid)}.button.primary:hover{background:#e8ff9e}.button .arrow{font-size:17px;line-height:0}.scroll-note{display:none;color:#85857f;font:9px var(--mono);letter-spacing:.12em;text-transform:uppercase}
+    .hero-art{position:relative;align-self:center;width:min(80vw,350px);aspect-ratio:.8;margin-top:38px;perspective:800px}.frame-shadow{position:absolute;inset:0;border:1px solid #ffffff1b;border-radius:19px;transform:rotate(5deg) translate(7%,0);background:linear-gradient(150deg,#ed664b,#522e61 50%,#253a31);opacity:.6}.frame{position:absolute;inset:0;overflow:hidden;border-radius:19px;border:1px solid #ffffff32;background:#201d22;transform:rotate(-3deg);box-shadow:0 24px 80px #0009}.frame:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 75% 20%,#d9fb5d9c 0 1%,transparent 1.5%),radial-gradient(ellipse at 26% 66%,#ff704d 0 12%,transparent 12.5%),linear-gradient(145deg,transparent 30%,#d9fb5d 30.2% 31%,transparent 31.2%),linear-gradient(20deg,#181718 10%,#322a34 45%,#df6950 46% 70%,#8c4b61 71%);opacity:.92}.frame:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,#111e 0%,transparent 52%),repeating-linear-gradient(0deg,transparent 0 7px,#ffffff08 8px 9px);mix-blend-mode:screen}.frame-top,.frame-bottom{position:absolute;z-index:1;left:16px;right:16px;display:flex;justify-content:space-between;align-items:center;font:9px var(--mono);letter-spacing:.1em;text-transform:uppercase}.frame-top{top:15px}.live-tag{padding:5px 7px;border-radius:3px;background:var(--acid);color:#171717}.frame-type{position:absolute;z-index:1;left:15px;right:10px;top:35%;font-size:clamp(2rem,9vw,3.6rem);line-height:.84;letter-spacing:-.09em;font-weight:800}.frame-type em{display:inline-block;color:var(--acid);font-style:normal;transform:translateX(22px)}.frame-bottom{bottom:15px;color:#ddd}.equalizer{display:flex;align-items:center;gap:3px;height:15px}.equalizer i{display:block;width:2px;height:5px;background:var(--acid);animation:wave .8s ease-in-out infinite alternate}.equalizer i:nth-child(2n){animation-delay:.23s}.equalizer i:nth-child(3n){animation-delay:.4s}@keyframes wave{to{height:14px}}.art-caption{position:absolute;right:-16px;bottom:-24px;color:#8a8982;font:9px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+    .ticker{overflow:hidden;border-block:1px solid var(--line);background:#171717;padding:14px 0}.ticker-track{display:flex;align-items:center;gap:22px;width:max-content;animation:marquee 26s linear infinite}.ticker span{font:10px var(--mono);letter-spacing:.18em;text-transform:uppercase;color:#aeaea5}.ticker b{color:var(--acid);font-size:16px}@keyframes marquee{to{transform:translateX(-50%)}}
+    section.section{padding:86px 0}.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:28px}.section-index{color:#75756f;font:10px var(--mono);letter-spacing:.12em}.section h2{margin:10px 0 0;font-size:clamp(2.3rem,9vw,6rem);letter-spacing:-.085em;line-height:.95;font-weight:600}.section h2 span{color:var(--acid)}.work-intro{max-width:430px;color:#aaa9a1;font-size:14px;line-height:1.7;margin:0 0 30px}.filter-row{display:flex;gap:8px;overflow:auto;padding:2px 2px 12px;scrollbar-width:none}.filter-row::-webkit-scrollbar{display:none}.filter{flex:none;padding:10px 15px;border:1px solid #ffffff26;border-radius:999px;background:transparent;color:#b9b8b0;font-size:11px;cursor:pointer;transition:.2s}.filter:hover,.filter[aria-pressed="true"]{background:var(--acid);border-color:var(--acid);color:var(--ink)}
+    .project{position:relative;display:grid;grid-template-columns:1fr;gap:0;overflow:hidden;border:1px solid #ffffff22;border-radius:22px;background:#1b1b1a;transition:opacity .2s,transform .25s}.project[aria-busy="true"]{opacity:.55;transform:scale(.99)}.project-visual{position:relative;min-height:315px;overflow:hidden;background:var(--wash,linear-gradient(135deg,#7146b8,#df694e))}.project-visual:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 70% 20%,#ffffff28,transparent 36%),linear-gradient(115deg,transparent 43%,#0002 43.2% 44%,transparent 44.2%);}.visual-noise{position:absolute;inset:0;opacity:.12;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E")}.visual-label{position:absolute;top:15px;left:15px;padding:7px 9px;background:#141414dd;border-radius:4px;color:#fff;font:9px var(--mono);letter-spacing:.1em;text-transform:uppercase}.poster-title{position:absolute;left:18px;right:12px;bottom:22px;color:white;font-size:clamp(3rem,13vw,7rem);font-weight:800;letter-spacing:-.095em;line-height:.8;text-transform:uppercase;text-shadow:0 3px 20px #0005}.poster-title small{display:block;font:9px var(--mono);letter-spacing:.15em;margin-bottom:15px}.poster-shape{position:absolute;right:12%;top:17%;width:46%;aspect-ratio:1;border:1px solid #ffffff72;border-radius:50%;box-shadow:0 0 0 18px #ffffff0e,0 0 0 45px #ffffff09;transform:rotate(-14deg)}.poster-shape:after{content:"";position:absolute;width:115%;height:2px;top:52%;left:-8%;background:#fff9;transform:rotate(53deg)}.project-copy{padding:23px}.project-meta{display:flex;justify-content:space-between;gap:12px;color:#8b8b84;font:9px var(--mono);letter-spacing:.1em;text-transform:uppercase}.project-copy h3{font-size:24px;letter-spacing:-.06em;margin:22px 0 9px}.project-copy p{max-width:420px;color:#a8a79f;font-size:13px;line-height:1.65;margin:0}.project-link{display:inline-flex;align-items:center;gap:9px;margin-top:21px;color:var(--acid);font-size:12px;font-weight:700}.project-link span{transition:transform .2s}.project-link:hover span{transform:translate(4px,-3px)}.project-foot{display:flex;align-items:center;justify-content:space-between;margin-top:30px;padding-top:16px;border-top:1px solid #ffffff18;color:#87877f;font:9px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+    .method{background:var(--paper);color:var(--ink)}.method .section-index{color:#66665f}.method .eyebrow{color:#465525}.method h2 span{color:#677d10}.method-intro{color:#66665f;max-width:500px;font-size:14px;line-height:1.7;margin:20px 0 34px}.steps{display:grid;gap:1px;background:#12121224;border:1px solid #12121224;border-radius:18px;overflow:hidden}.step{position:relative;display:grid;grid-template-columns:32px minmax(0,1fr);grid-template-rows:auto auto;column-gap:12px;row-gap:0;padding:18px;background:var(--paper);cursor:pointer;text-align:left;border:0;transition:background .2s}.step:hover,.step.active{background:#e6e6d8}.step-num{grid-column:1;grid-row:1;font:11px var(--mono);color:#83837b;padding-top:4px}.step h3{grid-column:2;grid-row:1;margin:0;padding-right:28px;font-size:17px;letter-spacing:-.04em}.step p{grid-column:2;grid-row:2;min-width:0;margin:0;color:#77776e;font-size:12px;line-height:1.6;max-height:0;overflow:hidden;transition:max-height .3s,margin .3s}.step.active p{max-height:96px;margin-top:8px}.step:after{content:"+";position:absolute;right:18px;top:16px;color:#77776e;font-size:17px;transition:transform .2s}.step.active:after{transform:rotate(45deg);color:#647510}.method-aside{margin:20px 0 0;color:#77776e;font:9px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+    .about{display:grid;gap:28px;align-items:center}.about-art{position:relative;min-height:250px;border:1px solid #ffffff24;border-radius:20px;overflow:hidden;background:linear-gradient(150deg,#293c37,#e56b4a 55%,#332736)}.about-art:before{content:"YP";position:absolute;left:-4%;bottom:-25%;color:#ffffff18;font-size:clamp(13rem,50vw,27rem);font-weight:800;letter-spacing:-.15em;line-height:1}.about-copy h2{max-width:540px}.about-copy p{color:#aaa9a1;font-size:14px;line-height:1.75;max-width:510px}.about-facts{display:flex;gap:20px;margin-top:22px}.fact{border-left:1px solid var(--acid);padding-left:12px}.fact strong{display:block;font-size:20px;letter-spacing:-.06em}.fact span{color:#94938c;font:9px var(--mono);letter-spacing:.07em;text-transform:uppercase}
+    .contact{position:relative;overflow:hidden;padding:78px 0 82px!important;border-top:1px solid var(--line);background:linear-gradient(120deg,#20221b,#121212 62%)}.contact:after{content:"";position:absolute;width:300px;height:300px;right:-100px;bottom:-150px;border-radius:50%;background:#d9fb5d18;filter:blur(50px)}.contact h2{max-width:850px;font-size:clamp(3.3rem,13vw,8.5rem)}.contact h2 em{font-style:normal;color:var(--acid)}.contact p{max-width:420px;color:#b0afa6;font-size:14px;line-height:1.7}.contact-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}.footer{display:flex;flex-direction:column;gap:10px;padding:20px var(--gutter) 94px;color:#77776f;font:9px var(--mono);letter-spacing:.06em;text-transform:uppercase}.footer a{color:#aaa99f}.footer a:hover{color:var(--acid)}
+    .mobile-nav{position:fixed;z-index:14;bottom:max(10px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);display:flex;align-items:center;justify-content:space-around;width:min(calc(100% - 28px),430px);padding:7px;border:1px solid #ffffff25;border-radius:999px;background:#1b1b1beF;box-shadow:0 12px 40px #0008;backdrop-filter:blur(18px)}.mobile-nav a{display:flex;flex-direction:column;align-items:center;gap:4px;min-width:54px;padding:7px 10px;border-radius:99px;color:#aead a4;color:#aaa99f;font:8px var(--mono);letter-spacing:.03em;text-transform:uppercase}.mobile-nav a:hover,.mobile-nav a:focus-visible{background:var(--acid);color:var(--ink)}.mobile-nav .nav-dot{width:5px;height:5px;border-radius:50%;background:currentColor}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}.reveal.in{opacity:1;transform:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}a:focus-visible,button:focus-visible{outline:2px solid var(--acid);outline-offset:4px}
+    @media(min-width:680px){.topbar{padding-block:17px}.topbar nav{display:flex}.availability{margin-left:auto;margin-right:36px}.hero{min-height:calc(100svh - 60px);padding:90px var(--gutter) 80px}.hero h1{max-width:850px}.hero-intro{max-width:550px}.hero-art{position:absolute;width:min(31vw,390px);right:var(--gutter);bottom:8%;margin:0;opacity:.94}.hero h1,.hero-intro,.hero-actions{max-width:64%;}.scroll-note{display:block;position:absolute;bottom:28px;left:var(--gutter)}.section-head{margin-bottom:40px}.work-intro{font-size:16px}.project{grid-template-columns:1.1fr .9fr;min-height:420px}.project-visual{min-height:420px}.project-copy{padding:clamp(26px,5vw,55px);display:flex;flex-direction:column;justify-content:center}.project-copy h3{font-size:clamp(27px,3vw,43px)}.project-copy p{font-size:14px}.poster-title{font-size:clamp(4.5rem,9vw,9rem);left:28px;bottom:35px}.visual-label{top:22px;left:22px}.steps{grid-template-columns:repeat(2,1fr)}.step{padding:24px;min-height:145px}.about{grid-template-columns:.9fr 1.1fr;gap:8vw}.about-art{min-height:430px}.about-copy p{font-size:15px}.mobile-nav{display:none}.footer{flex-direction:row;justify-content:space-between;align-items:center;padding-bottom:24px}.contact{padding:110px 0!important}}
+    @media(min-width:1050px){.hero h1,.hero-intro,.hero-actions{max-width:68%}.hero h1{font-size:clamp(7rem,10vw,10rem)}.hero-art{right:9%;bottom:12%;width:355px}.hero:after{right:4%;top:9%}.section h2{font-size:clamp(4rem,7vw,6rem)}.project{min-height:550px}.project-visual{min-height:550px}.project-copy{padding-inline:70px}}
+    @media(max-width:380px){.step{grid-template-columns:27px minmax(0,1fr);column-gap:9px;padding:16px 14px}.step:after{right:14px;top:14px}.step h3{font-size:16px}.step p{font-size:11px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+    /* Keep the editorial sections aligned to the same mobile gutter as the hero. */
+    section.section:not(.method):not(.contact){padding-inline:var(--gutter)}
+    @media(min-width:680px){.topbar nav{margin-left:auto}.availability{margin-left:36px;margin-right:0}}
+    .video-grid[hidden],.rail-hint[hidden]{display:none}
+    .video-grid{display:grid;grid-auto-flow:column;grid-auto-columns:min(82vw,360px);gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding:2px 2px 14px;overscroll-behavior-inline:contain}
+    .video-grid::-webkit-scrollbar{display:none}.video-card{min-width:0;overflow:hidden;scroll-snap-align:start;border:1px solid #ffffff21;border-radius:19px;background:#1b1b1a}
+    .video-stage{position:relative;overflow:hidden;aspect-ratio:9/16;background:#252421}.video-grid.landscape .video-stage{aspect-ratio:16/9}
+    .video-stage img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .45s}.video-card:hover .video-stage img{transform:scale(1.025)}
+    .video-chip{position:absolute;z-index:1;top:12px;left:12px;padding:7px 9px;border-radius:4px;background:#121212d9;color:#fff;font:8px var(--mono);letter-spacing:.1em}
+    .play-control{position:absolute;inset:0;width:100%;height:100%;display:grid;place-items:center;border:0;background:linear-gradient(0deg,#0005,transparent 42%);cursor:pointer}
+    .play-icon{width:58px;height:58px;display:grid;place-items:center;padding-left:4px;border:1px solid #ffffffa8;border-radius:50%;background:#1212127a;color:white;font-size:19px;backdrop-filter:blur(8px);transition:transform .2s,background .2s,color .2s}
+    .play-control:hover .play-icon,.play-control:focus-visible .play-icon{transform:scale(1.1);background:var(--acid);color:var(--ink)}
+    .video-stage.playing{aspect-ratio:9/16;background:#080808}.video-grid.landscape .video-stage.playing{aspect-ratio:16/9}.video-stage iframe{position:absolute;inset:0;width:100%;height:100%;border:0;background:#080808}
+    .video-info{padding:15px 16px 17px}.video-top{display:flex;justify-content:space-between;gap:10px;color:#88877f;font:8px var(--mono);letter-spacing:.1em}.video-info h3{margin:13px 0 11px;font-size:18px;letter-spacing:-.04em}.video-info>a{display:inline-flex;align-items:center;gap:7px;color:var(--acid);font-size:10px;font-weight:700}.video-info>a span{font-size:14px}
+    .rail-hint{margin:10px 2px 0;color:#8d8c84;font:9px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+    
+    .about-art:before{content:none}.about-art{min-height:clamp(360px,108vw,430px);aspect-ratio:4/5}.profile-image{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 0%;filter:saturate(.9)}.about-art:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(0deg,#121212c9,transparent);pointer-events:none}.photo-caption{position:absolute;z-index:1;left:18px;bottom:18px;color:white;font:9px var(--mono);letter-spacing:.12em}
+    @media(min-width:680px){.video-grid{grid-auto-columns:minmax(300px,calc(50% - 8px));gap:18px}.video-info{padding:18px 20px 20px}.about-art{min-height:430px;aspect-ratio:auto}}
+      /* Give headings and supporting copy more room to breathe, especially on mobile. */
+    .hero h1{line-height:1.02;margin-block:26px 30px}.hero-intro{line-height:1.82}
+    .section h2{line-height:1.08;margin-top:14px}.work-intro,.about-copy p,.contact p,.method-intro{line-height:1.85}
+    .work-intro{margin-bottom:36px}.about-copy p,.contact p{margin-top:24px}
+    .project-copy h3,.video-info h3{line-height:1.22}.video-info h3{margin:16px 0 14px}
+    .step h3{line-height:1.3}.step p{line-height:1.8}.step.active p{margin-top:11px}
+    .contact h2{line-height:1.04}
+  </style>
+</head>
+<body>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Yuri Patrick, início"><span class="brand-mark">Y</span><span>YURI PATRICK</span></a>
+    <nav aria-label="Navegação principal"><a href="#trabalhos">Trabalhos</a><a href="#processo">Processo</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+    <div class="availability">Aberto a projetos</div>
+  </header>
+  <main>
+    <section class="hero wrap" id="inicio">
+      <div class="eyebrow">Editor de vídeo · Motion designer</div>
+      <h1>Vídeos que fazem o dedo <span class="accent">parar.</span></h1>
+      <p class="hero-intro"><strong>Eu sou o Yuri.</strong> Transformo ideias e gravações em vídeos com ritmo, personalidade e um motivo para ficar até o final.</p>
+      <div class="hero-actions"><a class="button primary" href="#trabalhos">Explorar trabalhos <span class="arrow">↘</span></a><a class="button" href="https://wa.me/5512991417098?text=Oi%2C%20Yuri%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Falar no WhatsApp <span class="arrow">↗</span></a></div>
+      <div class="hero-art" aria-label="Arte conceitual de uma edição vertical, não representa um vídeo de projeto">
+        <div class="frame-shadow"></div><div class="frame"><div class="frame-top"><span>YP / Cut room</span><span class="live-tag">Em movimento</span></div><div class="frame-type">Ideia.<br><em>Ritmo.</em><br>Impacto.</div><div class="frame-bottom"><span>Prévia visual conceitual</span><span class="equalizer" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span></div></div><div class="art-caption">01 — corte, cor, movimento</div>
+      </div>
+      <div class="scroll-note">Role para entrar no estúdio ↓</div>
+    </section>
+
+    <div class="ticker" aria-label="Especialidades"><div class="ticker-track" aria-hidden="true"><span>Ritmo</span><b>✳</b><span>Retenção</span><b>✳</b><span>Motion graphics</span><b>✳</b><span>Reels</span><b>✳</b><span>Storytelling</span><b>✳</b><span>Ritmo</span><b>✳</b><span>Retenção</span><b>✳</b><span>Motion graphics</span><b>✳</b><span>Reels</span><b>✳</b><span>Storytelling</span><b>✳</b></div></div>
+
+    <section class="section wrap" id="trabalhos">
+      <div class="section-head reveal"><div><div class="section-index">01 / PORTFÓLIO</div><h2>Feito para <span>ser visto.</span></h2></div></div>
+      <p class="work-intro reveal">Cada corte tem uma função. Escolha uma frente e explore os trabalhos que já estão no ar.</p>
+      <div class="filter-row reveal" role="group" aria-label="Escolha uma categoria de trabalho"><button class="filter" data-work="reels" aria-pressed="true">01&nbsp; Reels</button><button class="filter" data-work="motion" aria-pressed="false">02&nbsp; Motion</button></div>
+      <div class="video-grid reveal" id="video-grid" aria-live="polite" aria-busy="false"></div>
+<p class="rail-hint" id="rail-hint">Deslize para o lado e escolha um vídeo&nbsp; →</p>
+      <p class="sr-only" id="filter-status" aria-live="polite">Categoria Reels selecionada</p>
+    </section>
+
+    <section class="section method" id="processo">
+      <div class="wrap">
+        <div class="section-index reveal">02 / FLUXO DE EDIÇÃO</div><div class="eyebrow reveal" style="margin-top:17px">Uma boa edição tem intenção</div>
+        <h2 class="reveal">O ritmo não <span>acontece.</span><br>Ele é construído.</h2>
+        <p class="method-intro reveal">Meu processo combina clareza de mensagem com escolhas de montagem. Toque em cada etapa para entender o que ela faz na história.</p>
+        <div class="steps reveal" role="group" aria-label="Etapas de edição">
+          <button class="step active" aria-expanded="true"><span class="step-num">01</span><h3>Gancho</h3><p>Encontrar a ideia que merece abrir o vídeo e dar contexto rápido para quem chegou agora.</p></button>
+          <button class="step" aria-expanded="false"><span class="step-num">02</span><h3>Ritmo</h3><p>Dar cadência com cortes, pausas e aproximações que acompanham a intenção de cada fala.</p></button>
+          <button class="step" aria-expanded="false"><span class="step-num">03</span><h3>Movimento</h3><p>Usar títulos, grafismos e transições para reforçar a mensagem e a identidade visual.</p></button>
+          <button class="step" aria-expanded="false"><span class="step-num">04</span><h3>Fechamento</h3><p>Conduzir até a última ideia e deixar o próximo passo claro, sem quebrar a narrativa.</p></button>
+        </div>
+        <p class="method-aside">Um roteiro visual — cada projeto tem seu próprio compasso.</p>
+      </div>
+    </section>
+
+    <section class="section wrap about" id="sobre">
+      <div class="about-art reveal"><img class="profile-image" src="assets/yuri-profile.jpg" alt="Yuri Patrick em seu espaço de edição de vídeo" loading="lazy"><span class="photo-caption">YURI PATRICK / EDIÇÃO</span></div>
+      <div class="about-copy reveal"><div class="section-index">03 / QUEM ESTÁ NA ILHA</div><h2>Prazer,<br>Yuri <span>Patrick.</span></h2><p>Editor de vídeo focado em retenção e engajamento, com cinco anos de experiência em edição e animação. Do primeiro gancho aos detalhes de motion, gosto de encontrar o jeito certo de cada conteúdo falar com quem está assistindo.</p><div class="about-facts"><div class="fact"><strong>5 anos</strong><span>editando e animando</span></div><div class="fact"><strong>9:16</strong><span>na tela, com intenção</span></div></div></div>
+    </section>
+
+    <section class="section contact" id="contato"><div class="wrap reveal"><div class="section-index">04 / PRÓXIMO TAKE</div><h2>Tem uma ideia?<br><em>Bora editar.</em></h2><p>Me conta o que você está criando. A gente conversa sobre o formato e o ritmo que fazem sentido para o seu projeto.</p><div class="contact-actions"><a class="button primary" href="https://wa.me/5512991417098?text=Oi%2C%20Yuri%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." target="_blank" rel="noreferrer">Chamar no WhatsApp <span class="arrow">↗</span></a><a class="button" href="https://www.instagram.com/yuri_patrick_editz/" target="_blank" rel="noreferrer">Instagram <span class="arrow">↗</span></a></div></div></section>
+  </main>
+  <footer class="footer"><span>© <span id="year"></span> Yuri Patrick · Edição & movimento</span><a href="#inicio">Voltar ao início ↑</a></footer>
+  <nav class="mobile-nav" aria-label="Navegação rápida"><a href="#inicio"><span class="nav-dot"></span>Início</a><a href="#trabalhos"><span class="nav-dot"></span>Trabalhos</a><a href="#processo"><span class="nav-dot"></span>Processo</a><a href="#contato"><span class="nav-dot"></span>Contato</a></nav>
+  <script>
+    const collections={
+      reels:[
+        {title:"Reel 01",image:"assets/reel-01.jpg",id:"1EpQHdmbdJgF42bGvb2VNU5eIDy3o0BWT",file:"Sequence 01.mp4",kind:"REELS · 9:16"},
+        {title:"Reel 02",image:"assets/reel-02.jpg",id:"1J7lgrl-ZO_cthqGvazBfBipQKYUgL6sA",file:"exemplo.mp4",kind:"REELS · 9:16"},
+        {title:"Reel 03",image:"assets/reel-03.jpg",id:"135KUvnCrCV4uXvchNxgWP-8t6EHSZb3m",file:"exemplo 2.mp4",kind:"REELS · 9:16"},
+        {title:"Reel 04",image:"assets/reel-04.jpg",id:"13RiBQ8wxWXU0T_lee2ggzN9s8ozVZgZj",file:"teste V2.mp4",kind:"REELS · 9:16"}
+      ],
+      motion:[
+        {title:"Motion 01",image:"assets/motion-02.jpg",id:"1KrdWwxErmUvg9D_yVLvCtw3tHd00Cp5-",file:"Lux Legends of Runeterra animation",kind:"MOTION · ANIMAÇÃO",landscape:true},
+        {title:"Motion 02",image:"assets/motion-01.jpg",id:"1GFvorcWyNtennfgrlmRU_Ln-TiwJ5bCb",file:"Animação 02",kind:"MOTION · ANIMAÇÃO",landscape:true}
+      ]
+    };
+    const grid=document.querySelector("#video-grid");
+    const railHint=document.querySelector("#rail-hint");
+    function renderCollection(key){
+      const videos=collections[key]||[];
+      grid.classList.toggle("landscape",key==="motion");
+      grid.setAttribute("aria-busy","true");
+      grid.innerHTML=videos.map((video,index)=>`<article class="video-card"><div class="video-stage${video.landscape?" landscape":""}"><img src="${video.image}" alt="Imagem de capa: ${video.file}" loading="lazy"><span class="video-chip">${video.kind}</span><button class="play-control" type="button" data-drive-id="${video.id}" data-file="${video.file}" aria-label="Reproduzir ${video.title}"><span class="play-icon" aria-hidden="true">▶</span><span class="sr-only">Reproduzir ${video.title}</span></button></div><div class="video-info"><div class="video-top"><span>${video.kind}</span><span>${String(index+1).padStart(2,"0")} / ${String(videos.length).padStart(2,"0")}</span></div><h3>${video.title}</h3><a href="https://drive.google.com/file/d/${video.id}/view" target="_blank" rel="noreferrer">Abrir no Drive <span>↗</span></a></div></article>`).join("");
+      grid.setAttribute("aria-busy","false");
+      document.querySelector("#filter-status").textContent=`Categoria ${key==="motion"?"Motion": "Reels"} selecionada, ${videos.length} vídeos`;
+      grid.scrollTo({left:0,behavior:"smooth"});
+    }
+    renderCollection("reels");
+    document.querySelectorAll(".filter").forEach(button=>button.addEventListener("click",()=>{
+      document.querySelectorAll(".filter").forEach(b=>b.setAttribute("aria-pressed",String(b===button)));
+      renderCollection(button.dataset.work);
+    }));
+    grid.addEventListener("click",event=>{
+      const button=event.target.closest(".play-control");if(!button)return;
+      const stage=button.closest(".video-stage");const id=button.dataset.driveId;const title=button.dataset.file;
+      stage.classList.add("playing");stage.innerHTML=`<iframe src="https://drive.google.com/file/d/${id}/preview?autoplay=1" title="${title} — vídeo de portfólio de Yuri Patrick" allow="autoplay; fullscreen" allowfullscreen loading="lazy"></iframe>`;
+    });
+    document.querySelectorAll(".step").forEach(step=>step.addEventListener("click",()=>{document.querySelectorAll(".step").forEach(s=>{s.classList.toggle("active",s===step);s.setAttribute("aria-expanded",String(s===step))})}));
+    const progress=document.querySelector(".progress");window.addEventListener("scroll",()=>{const d=document.documentElement;progress.style.width=`${d.scrollTop/(d.scrollHeight-d.clientHeight)*100}%`},{passive:true});
+    const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add("in");observer.unobserve(entry.target)}}),{threshold:.08});document.querySelectorAll(".reveal").forEach(el=>observer.observe(el));
+    document.querySelector("#year").textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
